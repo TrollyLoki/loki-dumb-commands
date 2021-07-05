@@ -1,0 +1,20 @@
+name: LokiDumbCommands
+version: ${project.version}
+main: net.trollyloki.lokidumbcommands.LokiDumbCommandsPlugin
+api-version: 1.17
+author: TrollyLoki
+description: ${project.description}
+
+commands:
+  gun:
+    description: Shoots entities
+
+permissions:
+  lokidumbcommands.gun:
+    description: Allows the use of the gun command
+  lokidumbcommands.gun.multiple:
+    description: Allows multiple targets in the gun command
+  lokidumbcommands.gun.speed:
+    description: Allows a custom speed in the gun command
+  lokidumbcommands.gun.entities:
+    description: Allows entities to be targetted in the gun command
